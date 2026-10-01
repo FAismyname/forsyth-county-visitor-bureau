@@ -4,29 +4,33 @@
       <title>Explore Forsyth County</title>
       <style>
         h1  {
-          color: #0F446E; 
+          color: #FFFFFF; 
           font-weight: bold;
           font-size: 48px;
         }
          h2  {
-          color: #0F446E; 
+          color: #FFFFFF; 
           font-weight: bold;
           font-size: 48px;
         }
         .hook-card  {
-          width: 250px;
+          width: 80vw;
+          min-width: 80vw;
+          height: 50vh;
+          min-height: 50vh;
           color: #0F446E; 
           font-size: 28px;
           padding: 12px;
-          border: 2px solid;
-          border-color: #0F446E; 
+          border: 3px solid;
+          border-color: #FFFFFF; 
           background-color: #fffcef;
           margin: 12px;
+          flex-shrink: 0;
         }
         section    {
          display: flex;
          overflow-x: auto;
-         flex-wrap: nowap;
+         flex-wrap: nowrap;
         }
          button    {
          color: #ffffff;
@@ -36,11 +40,17 @@
          padding: 12px 18px;
          font-size: 18px;
         }
+         body    {
+         background-color: #0F446E;
+        }
+         #intro    {
+         color: #FFFFFF;
+        }
       </style>
     </head>
     <body>
       <h1 id="main-title">EXPLORE FORSYTH COUNTY</h1>  
-        <p>Forsyth County is a diverse region full of opportunities and reasons to explore. 
+        <p id="intro">Forsyth County is a diverse region full of opportunities and reasons to explore. 
         Whether you're a nature enthusiast or a thrill seeker, Forsyth County has something for you</p>
 
       <h2>Opportunities To Explore</h2>
