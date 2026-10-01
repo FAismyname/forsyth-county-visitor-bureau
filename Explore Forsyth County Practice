@@ -56,3 +56,60 @@
       </section>
     </body>  
 </html>
+
+
+#Vivaan's Code(Explore Main Page Outline)
+<html>
+<head>
+<title>Explore</title>
+<style>
+        h1  {
+          color: #0F446E; 
+          font-weight: bold;
+          font-size: 48px;
+        }
+         h2  {
+          color: #0F446E; 
+          font-weight: bold;
+          font-size: 48px;
+        }
+        .hook-card  {
+          width: 250px;
+          color: #0F446E; 
+          font-size: 28px;
+          padding: 12px;
+          border: 2px solid;
+          border-color: #0F446E; 
+          background-color: #fffdf0
+          margin: 12px;
+        }
+</style>
+<head>
+<body>
+<h1 id="main-title">Explore</h1>
+<p>Welcome to the Explore Page!Click on the sections on the map to learn more about nature, art, and the history of Forsyth County. Whether you're an art enthusiast or an explorer of nature, Forsyth County is for you!</p>
+<section>
+<h2>Explore Forsyth County</h2>
+<p>This text serves as a placeholder for the map that will come in later after I code it</p>
+</section>
+
+<section>
+<h3>Featured Attractions</h3>
+<div class="hook-card">
+<h4>Lake Lanier<h4>
+<p class="attraction-category">Parks and Nature</p>
+<p class="attraction-spotlight">Explore the great outdoors at Lake Lanier through wonderful lake sunsets, exciting aquatic activities, and breathtaking waterfront views!</p>
+
+</div>
+
+<div class="hook-card">
+<h4>The FoCAL Center<h4>
+<p class="attraction-category">Arts and Culture</p>
+<p class="attraction-spotlight">Experience the wonderful world of the arts at the FoCAL center!</p>
+</div>
+
+<div class="hook-card">
+<h4>Cumming Historic District<h4>
+<p class="attraction-category">History and Heritage</p>
+<p class="attraction-spotlight">Experience the rich heritage of Forsyth County through a flash to the past at Cumming's very own Historic District!</p>
+</div>
