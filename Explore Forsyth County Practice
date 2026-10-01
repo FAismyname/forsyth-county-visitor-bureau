@@ -20,8 +20,21 @@
           padding: 12px;
           border: 2px solid;
           border-color: #0F446E; 
-          background-color: #fffdf0
+          background-color: #fffcef;
           margin: 12px;
+        }
+        section    {
+         display: flex;
+         overflow-x: auto;
+         flex-wrap: nowap;
+        }
+         button    {
+         color: #ffffff;
+         border: 1px solid;
+         border-color: #ffffff;
+         background-color: #0F446E;
+         padding: 12px 18px;
+         font-size: 18px;
         }
       </style>
     </head>
@@ -29,16 +42,17 @@
       <h1 id="main-title">EXPLORE FORSYTH COUNTY</h1>  
         <p>Forsyth County is a diverse region full of opportunities and reasons to explore. 
         Whether you're a nature enthusiast or a thrill seeker, Forsyth County has something for you</p>
+
+      <h2>Opportunities To Explore</h2>
       
-      <section>
-        <h2>Opportunities To Explore</h2>
+       <section>
         <div class="hook-card">
           <p class="home-page-hook">Hike the Sawnee Mountain trail and Experience the Fall Scenery </p>
           <button>Learn More</button>
              <img src="sawneemountainpreserve.jpeg">
         </div>
         <div class="hook-card">
-          <p class="home-page-hook">Head to Fowler park for a good biking trail</p
+          <p class="home-page-hook">Head to Fowler park for a good biking trail</p>
           <button>Learn More</button>
             <img src="fowlerpark.jpeg">
         </div>
@@ -52,7 +66,7 @@
           <button>Learn More</button>
             <img src="lakelanier.jpeg">
         </div>  
-        <a href="https/github.com">For More Info, Click Here</a>
       </section>
+        <a href="https/github.com">For More Info, Click Here</a>
     </body>  
 </html>
